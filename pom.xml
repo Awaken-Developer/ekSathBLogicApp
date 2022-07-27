@@ -21,9 +21,9 @@
 
     <modules>
         <!-- <module>confsvr</module>
-        <module>dispatch</module>
         <module>profiles</module>
         <module>feedback</module>-->
+        <module>dispatch</module>
         <module>accounts</module>
         <module>eurekasvr</module>
     </modules>
