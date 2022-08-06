@@ -1,4 +1,4 @@
-package com.transion.eksath.blogic.domain;
+package com.transion.eksath.blogic.accounts.domain;
 
 import io.eventuate.Event;
 

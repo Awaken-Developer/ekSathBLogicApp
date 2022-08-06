@@ -4,7 +4,7 @@ public class AccountingServiceChannelConfiguration {
     private String commandDispatcherId;
     private String commandChannel;
 
-    public AccountServiceChannelConfiguration(String commandDispatcherId, String commandChannel){
+    public AccountingServiceChannelConfiguration(String commandDispatcherId, String commandChannel){
         this.commandDispatcherId = commandDispatcherId;
         this.commandChannel = commandChannel;
     }

@@ -13,7 +13,7 @@ public class DispatchOrderCreatedEvent implements DispatchOrderDomainEvent {
     
     private DispatchOrderCreatedEvent(){}
 
-    public DispatchOrderCreatedEvent(DispatchOrderDetails dispatchOrderDetails, /*address */, String workerName){
+    public DispatchOrderCreatedEvent(DispatchOrderDetails dispatchOrderDetails, /*address */ String workerName){
 
         this.dispatchOrderDetails = dispatchOrderDetails;
         // this.dispatchDeliveryAddress = dispatchDeliveryAddress;

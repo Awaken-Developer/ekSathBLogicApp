@@ -1,7 +1,7 @@
 package com.transion.eksath.blogic.dispatchorderapi.events;
 
 public enum DispatchOrderState {
-    APPROVAL_PANDING,
+    APPROVAL_PENDING,
     APPROVED,
     REJECTED,
     CANCEL_PENDING,

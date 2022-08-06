@@ -24,6 +24,159 @@
 	<dependencies>
 
 		<dependency>
+			<groupId>io.microservices.tools.canvas</groupId>
+			<artifactId>microservice-canvas-extractor-tram-sagas</artifactId>
+			<version>0.8.0.RELEASE</version>
+		</dependency>
+
+
+		<dependency>
+			<groupId>io.microservices.tools.canvas</groupId>
+			<artifactId>microservice-canvas-springmvc</artifactId>
+			<version>0.8.0.RELEASE</version>
+		</dependency>
+
+
+		<dependency>
+			<groupId>io.eventuate.tram.sagas</groupId>
+			<artifactId>eventuate-tram-sagas-spring-orchestration</artifactId>
+			<version>0.19.0.RELEASE</version>
+		</dependency>
+
+
+		<dependency>
+			<groupId>io.grpc</groupId>
+			<artifactId>grpc-stub</artifactId>
+			<version>1.48.0</version>
+		</dependency>
+
+
+		<dependency>
+			<groupId>io.grpc</groupId>
+			<artifactId>grpc-protobuf</artifactId>
+			<version>1.48.0</version>
+		</dependency>
+
+
+		<dependency>
+			<groupId>io.grpc</groupId>
+			<artifactId>grpc-netty</artifactId>
+			<version>1.48.0</version>
+		</dependency>
+
+
+		<dependency>
+			<groupId>io.micrometer</groupId>
+			<artifactId>micrometer-registry-prometheus</artifactId>
+			<version>1.9.2</version>
+		</dependency>
+
+
+		<dependency>
+			<groupId>io.eventuate.tram.core</groupId>
+			<artifactId>eventuate-tram-spring-commands</artifactId>
+			<version>0.30.0.RELEASE</version>
+		</dependency>
+
+
+		<dependency>
+			<groupId>io.eventuate.tram.core</groupId>
+			<artifactId>eventuate-tram-aggregate-domain-events</artifactId>
+			<version>0.30.0.RELEASE</version>
+		</dependency>
+
+
+		<dependency>
+			<groupId>io.netty</groupId>
+			<artifactId>netty-resolver</artifactId>
+			<version>5.0.0.Alpha2</version>
+		</dependency>
+
+
+		<dependency>
+			<groupId>io.netty</groupId>
+			<artifactId>netty-buffer</artifactId>
+			<version>5.0.0.Alpha2</version>
+		</dependency>
+
+
+		<dependency>
+			<groupId>io.netty</groupId>
+			<artifactId>netty-common</artifactId>
+			<version>5.0.0.Alpha2</version>
+		</dependency>
+
+
+		<dependency>
+			<groupId>io.netty</groupId>
+			<artifactId>netty-transport</artifactId>
+			<version>5.0.0.Alpha2</version>
+		</dependency>
+
+
+		<dependency>
+			<groupId>io.netty</groupId>
+			<artifactId>netty-codec</artifactId>
+			<version>5.0.0.Alpha2</version>
+		</dependency>
+
+
+		<dependency>
+			<groupId>io.netty</groupId>
+			<artifactId>netty-codec-http2</artifactId>
+			<version>5.0.0.Alpha2</version>
+		</dependency>						
+
+		<dependency>
+			<groupId>io.eventuate.local.java</groupId>
+			<artifactId>eventuate-local-java-spring-jdbc</artifactId>
+			<version>0.38.0.RELEASE</version>
+		</dependency>
+
+
+		<dependency>
+			<groupId>io.eventuate.local.java</groupId>
+			<artifactId>eventuate-client-java-spring-jdbc</artifactId>
+			<version>0.38.0.RELEASE</version>
+		</dependency>
+
+
+		<dependency>
+			<groupId>io.eventuate.local.java</groupId>
+			<artifactId>eventuate-client-java-spring</artifactId>
+			<version>0.38.0.RELEASE</version>
+		</dependency>
+
+
+		<dependency>
+			<groupId>javax.el</groupId>
+			<artifactId>javax.el-api</artifactId>
+			<version>3.0.1-b06</version>
+		</dependency>
+
+
+		<dependency>
+			<groupId>io.eventuate.tram.sagas</groupId>
+			<artifactId>eventuate-tram-sagas-spring-orchestration-simple-dsl</artifactId>
+			<version>0.19.0.RELEASE</version>
+		</dependency>
+
+
+		<dependency>
+			<groupId>io.eventuate.tram.core</groupId>
+			<artifactId>eventuate-tram-spring-messaging</artifactId>
+			<version>0.30.0.RELEASE</version>
+		</dependency>
+
+
+		<dependency>
+			<groupId>io.eventuate.tram.core</groupId>
+			<artifactId>eventuate-tram-spring-jdbc-kafka</artifactId>
+			<version>0.30.0.RELEASE</version>
+		</dependency>
+
+
+		<dependency>
 			<groupId>org.seedstack.addons.netflix</groupId>
 			<artifactId>netflix-hystrix</artifactId>
 			<version>1.2.2</version>

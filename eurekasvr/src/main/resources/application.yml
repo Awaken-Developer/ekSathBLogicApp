@@ -1,3 +1,5 @@
+#Default port is 8761  all the files of this kind should be edited at the time of deployment
+
 server:
     port: 8761
 
